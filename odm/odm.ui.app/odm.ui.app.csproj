@@ -399,35 +399,35 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(ffmpegDir)\avcodec-54.dll">
+    <Content Include="..\..\libs\ffmpeg-git-a5c1a0c\win32\bin\avcodec-54.dll">
       <Link>3rd\avcodec-54.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(ffmpegDir)\avdevice-54.dll">
+    <Content Include="..\..\libs\ffmpeg-git-a5c1a0c\win32\bin\avdevice-54.dll">
       <Link>3rd\avdevice-54.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(ffmpegDir)\avfilter-2.dll">
+    <Content Include="..\..\libs\ffmpeg-git-a5c1a0c\win32\bin\avfilter-2.dll">
       <Link>3rd\avfilter-2.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(ffmpegDir)\avformat-54.dll">
+    <Content Include="..\..\libs\ffmpeg-git-a5c1a0c\win32\bin\avformat-54.dll">
       <Link>3rd\avformat-54.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(ffmpegDir)\avutil-51.dll">
+    <Content Include="..\..\libs\ffmpeg-git-a5c1a0c\win32\bin\avutil-51.dll">
       <Link>3rd\avutil-51.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(ffmpegDir)\postproc-52.dll">
+    <Content Include="..\..\libs\ffmpeg-git-a5c1a0c\win32\bin\postproc-52.dll">
       <Link>3rd\postproc-52.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(ffmpegDir)\swresample-0.dll">
+    <Content Include="..\..\libs\ffmpeg-git-a5c1a0c\win32\bin\swresample-0.dll">
       <Link>3rd\swresample-0.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(ffmpegDir)\swscale-2.dll">
+    <Content Include="..\..\libs\ffmpeg-git-a5c1a0c\win32\bin\swscale-2.dll">
       <Link>3rd\swscale-2.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -447,6 +447,14 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Resource Include="AnalyticsView.xml" />
+    <Content Include="3rd\avcodec-54.dll" />
+    <Content Include="3rd\avdevice-54.dll" />
+    <Content Include="3rd\avfilter-2.dll" />
+    <Content Include="3rd\avformat-54.dll" />
+    <Content Include="3rd\avutil-51.dll" />
+    <Content Include="3rd\postproc-52.dll" />
+    <Content Include="3rd\swresample-0.dll" />
+    <Content Include="3rd\swscale-2.dll" />
     <Content Include="custom-time-zones.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
